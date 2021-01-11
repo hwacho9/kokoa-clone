@@ -1,7 +1,19 @@
 body {
   background-color: whitesmoke;
   display: flex;
+  height: 100vh;
+  flex-direction: column;
 }
 h1 {
   text-align: center;
+}
+#father {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+div {
+  background-color: tomato;
 }
