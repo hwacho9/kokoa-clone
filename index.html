@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+  </head>
+  <body>
+    <h1>Creat An Account</h1>
+    <form>
+      <div>
+        <label for="first_name">First name</label>
+        <input required placeholder="Fisrt name"id="first_name" type="text" name="first_name">
+      </div>
+      <div>
+        <label for="last_name">Last name</label>
+        <input required placeholder="Last name" id="lsat_name" type="text" name="last_name">
+      </div>
+      <div>
+        <label for = "email">Email</label>
+        <input required placeholder="Email" id ="email" type = "email" name = "email">
+      </div>
+      <div>
+        <label for = "id">Username</label>
+        <input required placeholder="Username" id ="id" type = "id" name = "username">
+      </div>
+      <div>
+        <label for = "password">Password</label>
+        <input required placeholder="Password" id ="password" type = "password" name = "password" minlength="10" >
+      </div>
+      <div>
+        <label for="date">Birth date</label>
+        <input required id="date" type="date" name="date">
+      </div>
+      <div>
+        <label for="range">How happy are you?</label>
+        <input required id="range" type="range" list="tickmarks">
+        <datalist id="tickmarks">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+        </datalist>
+      </div>
+      <div>
+        <label for="color">Waht is your fav.color?</label>
+        <input required id="color" type="color" name="color">
+      </div>
+      <input type="submit" value="Creat Account">
+    </form>
+  </body>
+</html>
