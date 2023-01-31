@@ -1,0 +1,40 @@
+* {
+    border: 2px dashed black;
+}
+html {
+    background-color: tomato;
+}
+body {
+    margin: 20px;
+    padding: 20px;
+    background-color: thistle;
+}
+div {
+    padding: 20px;
+}
+#first {
+    background-color: whitesmoke;
+    width: 150px;
+    height: 150px;
+}
+#second {
+    height: 100px;
+    width: 100px;
+    background-color: teal;
+}
+#third {
+    height: 50px;
+    width: 50px;
+    background-color: wheat;
+}
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.teal {
+    background-color: teal;
+}
+.tomato {
+    background-color: tomato;
+    color: white;
+}
