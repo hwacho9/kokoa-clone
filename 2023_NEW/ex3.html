@@ -20,13 +20,26 @@
                 background-color: teal;
             }
             #second {
+                position: relative;
+                top: -10px;
                 background-color: wheat;
+            }
+            .green {
+                background-color: teal;
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                top: 0px;
+                right: 0px;
             }
         </style>
     </head>
     <body>
         <div>1</div>
-        <div id="second">2</div>
+        <div id="second">
+            2
+            <div class="green"></div>
+        </div>
         <div>3</div>
     </body>
 </html>
