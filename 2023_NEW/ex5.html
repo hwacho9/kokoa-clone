@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <style>
+            body {
+                height: 1000vh;
+                margin: 50px;
+            }
+            div {
+                width: 150px;
+                height: 150px;
+                background-color: wheat;
+                position: relative;
+            }
+            input:focus {
+                background-color: tomato;
+            }
+            a:visited {
+                color: tomato;
+            }
+            a:hover {
+                color: turquoise;
+            }
+            form {
+                border: 1px solid salmon;
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+            }
+            form:hover input:focus {
+                background-color: sienna;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <input type="text" />
+            <input type="text" />
+            <a href="https://apple.com">Go to apple</a>
+        </div>
+        <form>
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+        </form>
+    </body>
+</html>
