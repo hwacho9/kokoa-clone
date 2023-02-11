@@ -1,0 +1,78 @@
+.progress-bar {
+    position: relative;
+}
+
+.progress-bar__time {
+    position: relative;
+    margin-bottom: 4px;
+    opacity: 0.4;
+    font-size: 13px;
+}
+
+.progress-bar__time span:last-child {
+    position: absolute;
+    right: 0px;
+}
+
+.progress-bar__bar {
+    width: 330px;
+}
+
+.progress-bar__bar-point {
+    background-color: black;
+    height: 14px;
+    width: 14px;
+    border-radius: 7px;
+    position: absolute;
+    right: 120px;
+    bottom: 1px;
+}
+
+.playscreen-btn {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 100px;
+    margin-top: 60px;
+    place-items: center;
+}
+.playscreen-btn__column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 73px;
+    width: 73px;
+}
+
+.playscreen-btn__column i:active {
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.playscreen-btn__column:nth-child(even) {
+    font-size: 25px;
+}
+.playscreen-btn__column:nth-child(odd) {
+    font-size: 15px;
+    opacity: 0.4;
+}
+.playscreen-btn__column:nth-child(3) {
+    font-size: 40px;
+    opacity: 1;
+    color: white;
+    background-color: black;
+    height: 73px;
+    width: 73px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.playscreen-btn__column:nth-child(3):active {
+    box-shadow: 1px 5px 20px gray;
+}
+.playscreen-btn__column:nth-child(1),
+.playscreen-btn__column:nth-child(2) {
+    padding-right: 30px;
+}
+
+.playscreen-btn__column:nth-child(5),
+.playscreen-btn__column:nth-child(4) {
+    padding-left: 30px;
+}

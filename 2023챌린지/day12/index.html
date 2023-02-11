@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>You Are Awesome!</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <div class="main-box">
+            <div class="status-bar">
+                <div class="status-bar__column"><i class="fas fa-arrow-left"></i></div>
+                <div class="status-bar__column"><i class="fas fa-search"></i></div>
+            </div>
+
+            <div class="singer-info">
+                <div class="singer-info__img singer-info__img-xs">
+                    <img src="https://musicmeta-phinf.pstatic.net/album/007/434/7434553.jpg?type=r100Fll&v=202302112131" alt="img" />
+                </div>
+                <div class="singer-info__text">
+                    <h4 class="singer-info__title">사건의 지평선</h4>
+                    <h6 class="singer-info__genre"></h6>
+                </div>
+            </div>
+
+            <div class="interaction-btn">
+                <div class="interaction-btn__column">Shuffle</div>
+                <div class="interaction-btn__column"><i class="fas fa-heart"></i>999,999</div>
+            </div>
+
+            <div class="playlist">
+                <div class="playlist__box">
+                    <div class="playlist__box-pic"><img src="https://musicmeta-phinf.pstatic.net/album/000/323/323165.jpg?type=r120Fll&v=20230120135904" alt="img" /></div>
+                    <div class="playlist-info">
+                        <h6>윤하</h6>
+                        <h4>소나기</h4>
+                    </div>
+                    <div class="playlist__box-ellipsis"><i class="fas fa-ellipsis-v"></i></div>
+                </div>
+                <div class="playlist__box">
+                    <div class="playlist__box-pic"><img src="https://musicmeta-phinf.pstatic.net/album/004/367/4367631.jpg?type=r120Fll&v=20220514065011" alt="img" /></div>
+                    <div class="playlist-info">
+                        <h6>윤하</h6>
+                        <h4>먹구름</h4>
+                    </div>
+                    <div class="playlist__box-ellipsis"><i class="fas fa-ellipsis-v"></i></div>
+                </div>
+                <div class="playlist__box">
+                    <div class="playlist__box-pic"><img src="https://musicmeta-phinf.pstatic.net/album/002/296/2296858.jpg?type=r120Fll&v=20230121043536" alt="img" /></div>
+                    <div class="playlist-info">
+                        <h6>윤하</h6>
+                        <h4>답을 찾지 못한 날</h4>
+                    </div>
+                    <div class="playlist__box-ellipsis"><i class="fas fa-ellipsis-v"></i></div>
+                </div>
+                <div class="playlist__box">
+                    <div class="playlist__box-pic"><img src="https://musicmeta-phinf.pstatic.net/album/007/434/7434553.jpg?type=r120Fll&v=20230109102326" alt="img" /></div>
+                    <div class="playlist-info">
+                        <h6>윤하</h6>
+                        <h4>Truly</h4>
+                    </div>
+                    <div class="playlist__box-ellipsis"><i class="fas fa-ellipsis-v"></i></div>
+                </div>
+            </div>
+
+            <div class="current-play">
+                <div class="current-play__column">
+                    <div class="playlist-info">
+                        <h6>윤하</h6>
+                        <h4>사건의 지평선</h4>
+                    </div>
+                </div>
+                <div class="current-play__column">
+                    <i class="fas fa-step-backward"></i>
+                    <i class="fas fa-pause"></i>
+                    <i class="fas fa-step-forward"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-box">
+            <div class="status-bar">
+                <div class="status-bar__column"><i class="fas fa-arrow-left"></i></div>
+                <div class="status-bar__column"><i class="fas fa-ellipsis-v"></i></div>
+            </div>
+
+            <div class="singer-info">
+                <div class="singer-info__img singer-info__img-xl">
+                    <img src="https://musicmeta-phinf.pstatic.net/album/000/323/323165.jpg?type=r480Fll&v=20230120135904" alt="img" />
+                </div>
+                <div class="singer-info__text">
+                    <h4 class="singer-info__title">Hope</h4>
+                    <h6 class="singer-info__singer">윤하</h6>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-bar__time">
+                    <span>1:56</span>
+                    <span>2:21</span>
+                </div>
+                <progress class="progress-bar__bar" value="6" max="10"></progress>
+                <div class="progress-bar__bar-point"></div>
+                <div id="myBar" class="w3-progressbar" style="width: 60%"></div>
+            </div>
+
+            <div class="playscreen-btn">
+                <div class="playscreen-btn__column">
+                    <i class="fas fa-redo"></i>
+                </div>
+                <div class="playscreen-btn__column">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="playscreen-btn__column">
+                    <i class="fas fa-play"></i>
+                </div>
+                <div class="playscreen-btn__column">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="playscreen-btn__column">
+                    <i class="fas fa-random"></i>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/a97beae15e.js" crossorigin="anonymous"></script>
+    </body>
+</html>
